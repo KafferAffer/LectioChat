@@ -3,6 +3,7 @@
     "version": "1.0",
     "description": "Build an Extension!",
     "permissions": ["storage","declarativeContent"],
+    "options": "options,html",
     "background": {
         "scripts": ["background.js"],
         "persistent": false
