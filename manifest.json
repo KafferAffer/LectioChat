@@ -2,8 +2,11 @@
     "name": "Getting Started Example",
     "version": "1.0",
     "description": "Build an Extension!",
+<<<<<<< HEAD
     "permissions": ["storage","declarativeContent"],
     "options": "options,html",
+=======
+>>>>>>> 7f3814066303d46b96646e4ddafce899f5781952
     "background": {
         "scripts": ["background.js"],
         "persistent": false
