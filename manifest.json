@@ -6,6 +6,7 @@
     "permissions": ["storage","declarativeContent"],
     "options": "options,html",
 =======
+    "permissions": ["activeTab", "declarativeContent", "storage"],
 >>>>>>> 7f3814066303d46b96646e4ddafce899f5781952
     "background": {
         "scripts": ["background.js"],
