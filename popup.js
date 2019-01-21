@@ -15,6 +15,6 @@ changeColor.onclick = function(element) {
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
         chrome.tabs.executeScript(
         tabs[0].id,
-        {code: 'var btn = document.createElement("h1");var t = document.createTextNode("CLICK ME Faggot");btn.setAttribute("color","red");btn.appendChild(t);document.body.appendChild(btn);'});
+        {code: 'WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("s$m$Content$Content$CreateThreadEditMessageOkBtn", "", true, "", "", false, true)); return false;'});
     });
 };
