@@ -15,6 +15,6 @@ changeColor.onclick = function(element) {
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
         chrome.tabs.executeScript(
         tabs[0].id,
-        {code: '$('#s_m_Content_Content_CreateThreadEditMessageOkBtn').trigger('lecclick')'});
+        {code: 'alert("Hi");'});
     });
 };
