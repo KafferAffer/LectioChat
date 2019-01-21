@@ -15,6 +15,6 @@ changeColor.onclick = function(element) {
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
         chrome.tabs.executeScript(
         tabs[0].id,
-        {code: 'WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("s$m$Content$Content$CreateThreadEditMessageOkBtn", "", true, "", "", false, true)); return false;'});
+        {code: '$('#s_m_Content_Content_CreateThreadEditMessageOkBtn').trigger('lecclick')'});
     });
 };
