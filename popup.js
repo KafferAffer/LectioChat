@@ -32,4 +32,3 @@ changeColor.onclick = function(element) {
         {code: finalcode});
     });
 };
-
